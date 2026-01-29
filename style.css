@@ -501,6 +501,7 @@ body::before {
   height: auto;
   display: block;
   border-radius: 6px;
+  filter: invert(1) hue-rotate(180deg);
 }
 
 .update-list, .success-stories, .additional-sections {
