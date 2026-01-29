@@ -483,6 +483,26 @@ body::before {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.github-chart {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 30px 0;
+  overflow-x: auto;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.github-chart img {
+  width: 100%;
+  min-width: 600px;
+  height: auto;
+  display: block;
+}
+
 .update-list, .success-stories, .additional-sections {
   display: flex;
   flex-direction: column;
